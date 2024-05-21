@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from "./Contact.module.css"
-import { FaPhone, FaEnvelope } from 'react-icons/fa6';
+import { FaPhone, FaEnvelope, FaLocationDot } from 'react-icons/fa6';
 
 function Contact() {
   return (
@@ -9,15 +9,17 @@ function Contact() {
             <div className={styles.contact_info}>
                 <h3>Get in touch</h3>
                 <p className={styles.contact_desc}>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Fuga eius eligedi in laboriosam
+                    
                 </p>
                 <p className={styles.contact_address}>
-                    123 Main Street <br />
-                    Bangkok, Thailandand
+                    <p><FaLocationDot /></p>
+                    Khlong Thanon Subdistrict, <br />
+                    Sai Mai District,  <br />
+                    Bangkok, Thailandand 10220
+
                 </p>
-                <p><FaPhone /> (+66) 98 555 1234</p> 
-                <p><FaEnvelope /> support@site.com</p>
+                <p><FaPhone /> (+66) 98 267 0816</p> 
+                <p><FaEnvelope /> visanupc@gmail.com</p>
             </div>
 
             <div className={styles.contact_form}>

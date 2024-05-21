@@ -11,37 +11,37 @@ function Portfolio() {
             <Tilt scale={1.2} transitionSpeed={2500} tiltReverse={true}>
                 <img src="https://images.unsplash.com/photo-1593720213428-28a5b9e94613?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2ViJTIwZGV2ZWxvcG1lbnR8ZW58MHx8MHx8fDA%3D" alt="" />
             </Tilt>
-                <p>Project_Title</p>
+                <p>Project_1</p>
             </div>
             <div className={styles.portfolio_items}>
             <Tilt scale={1.2} transitionSpeed={2500} tiltReverse={true}>
                 <img src="https://images.unsplash.com/photo-1593720213428-28a5b9e94613?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2ViJTIwZGV2ZWxvcG1lbnR8ZW58MHx8MHx8fDA%3D" alt="" />
             </Tilt>
-                <p>Project_Title</p>
+                <p>Project_2</p>
             </div>
             <div className={styles.portfolio_items}>
             <Tilt scale={1.2} transitionSpeed={2500} tiltReverse={true}>
                 <img src="https://images.unsplash.com/photo-1593720213428-28a5b9e94613?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2ViJTIwZGV2ZWxvcG1lbnR8ZW58MHx8MHx8fDA%3D" alt="" />
             </Tilt>
-                <p>Project_Title</p>
+                <p>Project_3</p>
             </div>
             <div className={styles.portfolio_items}>
             <Tilt scale={1.2} transitionSpeed={2500} tiltReverse={true}>
                 <img src="https://images.unsplash.com/photo-1593720213428-28a5b9e94613?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2ViJTIwZGV2ZWxvcG1lbnR8ZW58MHx8MHx8fDA%3D" alt="" />
             </Tilt>
-                <p>Project_Title</p>
+                <p>Project_4</p>
             </div>
             <div className={styles.portfolio_items}>
             <Tilt scale={1.2} transitionSpeed={2500} tiltReverse={true}>
                 <img src="https://images.unsplash.com/photo-1593720213428-28a5b9e94613?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2ViJTIwZGV2ZWxvcG1lbnR8ZW58MHx8MHx8fDA%3D" alt="" />
             </Tilt>
-                <p>Project_Title</p>
+                <p>Project_5</p>
             </div>
             <div className={styles.portfolio_items}>
             <Tilt scale={1.2} transitionSpeed={2500} tiltReverse={true}>
                 <img src="https://images.unsplash.com/photo-1593720213428-28a5b9e94613?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2ViJTIwZGV2ZWxvcG1lbnR8ZW58MHx8MHx8fDA%3D" alt="" />
             </Tilt>
-                <p>Project_Title</p>
+                <p>Project_6</p>
             </div>
         </div>
       

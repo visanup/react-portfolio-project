@@ -17,20 +17,19 @@ function Hero() {
                     <TypeAnimation
                         sequence={[
                             // Same substring at the start will only be typed out once, initially
-                            'batman',
+                            "Senior qauality Assurance Staff",
                             1000, // wait 1s before replacing "Mice" with "Hamsters"
-                            'Ironman',
-                            1000,
-                            'Superman',
-                            1000,
-
                         ]}
                         wrapper="span"
                         speed={20}
                         repeat={Infinity}
                         />
                    </p>
-                    <p className={styles.text_4}> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga fugiat commodi <br /> quas cupiditate minus dolore nulla eos accusantium labore explicabo.</p>
+                    <p className={styles.text_4}> 
+                    - Data Analysis Expert <br />
+                    - Proficient in presenting data with Excel, PivotTable, and Power BI<br />
+                    - Skilled in quality control processes for animal feed production<br />
+                    - Expertise in ML applications and Python coding<br /></p>
                     <ul className={styles.hero_social}>
                         <li><a href="#"><FaGithub/></a></li>
                         <li><a href="#"><FaLinkedinIn/></a></li>
@@ -38,7 +37,8 @@ function Hero() {
                     </ul>
                 </div>
                 <Tilt scale={1.2} transitionSpeed={2500} tiltReverse={true}>
-                <div className={styles.hero_img}></div>
+                <div className={styles.hero_img}> <img src="/visanup.png" alt="" /></div>
+                    
                 </Tilt>
             </div>
         </div>      
