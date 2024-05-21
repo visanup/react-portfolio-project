@@ -1,0 +1,59 @@
+.services_con {
+  height: 600px;           /* ความสูงของคอนเทนเนอร์ */
+  background-color: #fff;
+  text-align: center;
+  overflow: hidden;
+  padding: 20px;
+  display: flex;           /* ทำให้คอนเทนเนอร์เป็น flexbox */
+  flex-direction: column;  /* จัดเรียงลูกตามแนวตั้ง */
+  align-items: center;     /* จัดกึ่งกลางในแนวนอน */
+  justify-content: center; /* จัดกึ่งกลางในแนวตั้ง */
+
+  .services_title {
+    margin-top: 60px;
+    font-size: 32px;
+    font-weight: bold;
+  }
+
+  .services_list {
+    margin-top: 110px;
+    display: flex;           /* ทำให้คอนเทนเนอร์เป็น flexbox */
+    justify-content: center; /* จัดกึ่งกลางในแนวนอน */
+    gap: 50px;               /* ระยะห่างระหว่าง items */
+  
+    .services_item{
+      width: 250px;
+      text-align: center;
+  
+      svg {
+        width: 80px;
+        height: 80px;
+        color: #0085ff;
+      }
+  
+      h4{
+        color: #0085ff;
+        font-size: 24px;
+        font-weight: bold;
+        margin: 25 0px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width:480px) {
+  .services_con{
+    height: auto;
+
+    .services_list{
+      flex-direction: column;
+      margin: 50px 0;
+
+      .services_item{
+        width: 100%;
+        margin: 20px 0;
+        padding: 2;
+      }
+    }
+  }
+}

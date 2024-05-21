@@ -1,0 +1,50 @@
+.skills_con {
+    padding: 20px;
+    background-color: #0085ff;
+    display: flex;           /* ใช้ Flexbox */
+    flex-direction: column;  /* จัดเรียงตามแนวตั้ง */
+    align-items: center;     /* จัดกึ่งกลางในแนวนอน */
+    justify-content: center; /* จัดกึ่งกลางในแนวตั้ง */
+    height: 300px;           /* ใช้ความสูงเต็มจอ */
+    text-align: center;      /* จัดข้อความในคอนเทนเนอร์ให้อยู่กึ่งกลาง */    
+  }
+  
+  .skills_title {
+    font-size: 16px;
+    margin-bottom: 70px;
+    color: white;
+    
+
+  }
+  
+  .skills_list {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    color: white;
+
+    & li{
+        margin-right: 20px;
+
+        & svg{
+            width: 80px;
+            height: 80px;
+            color: white;
+            }
+    }
+  }
+@media screen and (max-width: 480px) {
+  .skills_con{
+    height: auto;
+    
+      .skills_list{
+        flex-direction: column;
+        margin: 50px 0;
+
+          li{
+            margin: 20px 0;
+          }
+      }
+  }
+  
+}
